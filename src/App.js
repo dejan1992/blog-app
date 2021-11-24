@@ -1,12 +1,20 @@
 import React from 'react';
-
 import ReactDOM from 'react-dom';
-import Button from '@mui/material/Button';
+
+import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Main from './components/Main/Main'
+import Footer from './components/Footer/Footer'
+
 
 const App = () => {
   return (
     <div>
-      <Button variant="contained">Hello World</Button>
+      <Navbar />
+      <Hero />
+      <Main />
+      <Footer />
+
     </div>
   )
 }
