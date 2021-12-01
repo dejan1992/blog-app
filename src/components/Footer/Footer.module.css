@@ -1,0 +1,88 @@
+footer{
+  padding: 40px;
+  background: #333;
+
+}
+
+.container{
+  display: flex;
+}
+
+.container h3{
+    font-size:24px;
+    margin-bottom: 20px;
+    color: #3a7d33;
+  }
+
+  .left{
+    width: 60%;
+    border-radius: 10px;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+    margin: 0 5px;
+  }
+
+  .left p{
+    color: #000;
+    text-align: center;
+  }
+  .middle{
+    width: 30%;
+    border-radius: 10px;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin: 0 5px;
+
+  }
+  .right{
+    width: 30%;
+    border-radius: 10px;
+    background:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    margin: 0 5px;
+  }
+
+  .middle ul,
+  .right ul{
+    list-style: none;
+    padding:0;
+  }
+  .middle li,
+  .right li{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px 0;
+  }
+
+  .middle a,
+  .right a{
+    text-decoration: none;
+    color: #000;
+  }
+  .middle a:hover,
+  .right a:hover{
+    cursor: pointer;
+    color: #3a7d33;
+  }
+
+  form{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+  }
+
+  form :first-child{
+    margin-right: 10px;
+  }
