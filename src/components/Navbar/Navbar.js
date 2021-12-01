@@ -1,11 +1,13 @@
 import React from 'react'
-import './Navbar.css'
+import styles from './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav>
-      <h1>Helo from Navbar</h1>
-    </nav>
+    <ul className="nav-ul">
+      <li className="nav-li"><a href="#">Videos</a></li>
+      <li className="nav-li"><a href="#">About</a></li>
+      <li className="nav-li"><a href="#">Contact</a></li>
+    </ul>
   )
 }
 

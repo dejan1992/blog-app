@@ -1,5 +1,47 @@
 .card{
-  height:90%;
-  border: 2px solid blue;
-  text-align: center;
+  /* height:600px; */
+  /* border: 2px solid blue; */
+  padding: 20px;
 }
+
+.card-text{
+  margin-bottom:40px;
+}
+
+.card-title{
+  color: #333;
+  font-size: 35px;
+  font-weight: 400;
+
+}
+
+.filter-title{
+  color: #3c76d2;
+  font-size: 30px;
+  margin-bottom:30px;
+
+}
+
+
+.filter-links>a{
+  color: #3c76d2;
+  margin-right:30px;
+  font-size: 25px;
+  text-decoration: none;
+  padding-bottom: 10px;
+  transition: all 0.1s;
+
+}
+
+.filter-links>a:hover{
+  border-bottom: 3px solid #3c76d2;
+}
+
+.card-container{
+  margin-top:40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+

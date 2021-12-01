@@ -13,7 +13,7 @@ const App = () => {
       <Navbar />
       <Hero />
       <Main />
-      <Footer />
+      {/* <Footer /> */}
 
     </div>
   )

@@ -1,7 +1,35 @@
-nav{
-  width: 95%;
-  border: 2px solid red;
+.nav-ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
   padding: 10px;
   margin: auto;
   text-align: right;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
 }
+
+
+.nav-li{
+  margin-right: 40px;
+  padding:20px 0;
+
+}
+
+.nav-li a:hover{
+  
+  border-bottom:1px solid #fff;
+}
+
+.nav-li a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
