@@ -1,12 +1,12 @@
 import React from 'react'
-import styles from './Navbar.css'
+import classes from './Navbar.module.css'
 
 const Navbar = () => {
   return (
-    <ul className="nav-ul">
-      <li className="nav-li"><a href="#">Videos</a></li>
-      <li className="nav-li"><a href="#">About</a></li>
-      <li className="nav-li"><a href="#">Contact</a></li>
+    <ul className={classes["nav-ul"]}>
+      <li><a href="#">Videos</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
   )
 }
